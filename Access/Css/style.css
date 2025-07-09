@@ -172,6 +172,9 @@ a {
   margin-top: 15px;
 }
 
+.new .book-item .foot .price.none_sale {
+  color: #bebebe;
+}
 .book-sale .book-item {
   position: relative;
 }
