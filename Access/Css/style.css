@@ -176,6 +176,15 @@ a {
   position: relative;
 }
 
+.book-item .name-book {
+  overflow: hidden;
+}
+
+.book-item .name-book {
+  word-break: break-all;
+  /* tự động cắt hàng nếu text quá dài */
+}
+
 .sale .sale_number {
   font-size: 23px;
   padding: 0.4rem;
