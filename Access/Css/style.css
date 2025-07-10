@@ -31,6 +31,7 @@ a {
   line-height: 1.27;
   letter-spacing: -0.76px;
   text-align: center;
+  text-transform: uppercase;
 }
 /* =============== header ===============*/
 .header {
@@ -221,7 +222,7 @@ a {
 /* =============== Slogan ===============*/
 .slogan {
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: -37px;
 }
 
 .slogan .slg img {
