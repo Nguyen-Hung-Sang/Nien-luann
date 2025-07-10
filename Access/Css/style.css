@@ -138,7 +138,7 @@ a {
   background: #fffff7;
 }
 .new .book-sale {
-  gap: 20px;
+  gap: 10px;
   margin-top: 25px;
   display: flex;
 }
@@ -159,6 +159,8 @@ a {
   border-radius: 12px;
   border: 1px solid #fffff7;
   background: #fff;
+  width: 20%;
+  /* Chỉnh độ rộng mỗi item là 20% so với tổng độ dài ViewPoid */
 }
 
 .new .book-item .info {
@@ -183,9 +185,14 @@ a {
   overflow: hidden;
 }
 
-.book-item .name-book {
+.book-item .info .name-book {
   word-break: break-all;
   /* tự động cắt hàng nếu text quá dài */
+  overflow: hidden;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  /* Hiển thị dấu ... khi text quá dài */
 }
 
 .sale .sale_number {
@@ -214,8 +221,10 @@ a {
 /* =============== Slogan ===============*/
 .slogan {
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .slogan .slg img {
   width: 100%;
+  height: 120px;
 }
