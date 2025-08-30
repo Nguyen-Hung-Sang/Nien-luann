@@ -75,7 +75,7 @@ label {
 
 .btn-login {
   display: block;
-  min-width: 250px;
+  min-width: 300px;
   line-height: 40px;
   background: rgb(213, 28, 36);
   color: #fff;
@@ -85,4 +85,8 @@ label {
 }
 .btn-login:hover {
   opacity: 0.5;
+}
+p {
+  margin-top: 20px;
+  text-align: center;
 }
