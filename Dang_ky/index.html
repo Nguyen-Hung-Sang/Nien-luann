@@ -20,33 +20,34 @@
   </head>
   <body>
     <div class="wrapper">
-      <form action="">
+      <form id="font_submit" action="">
         <h3>Đăng ký</h3>
         <div class="form_group">
           <input type="text" name="tenDN" required />
-          <label for="">Tên đăng nhập</label>
+          <label for="" id="userName">Tên đăng nhập</label>
         </div>
+
         <div class="form_group">
-          <input type="Email" name="Email" required />
-          <label for="">Email</label>
+          <input type="text" name="tenDN" required />
+          <label for="" id="Email">Email</label>
         </div>
 
         <div class="form_group">
           <input type="phone_number" name="phone_number" required />
-          <label for="">Số điện thoại</label>
+          <label for="" id="SDT">Số điện thoại</label>
         </div>
 
         <div class="form_group">
           <input type="Password" name="Password" required />
-          <label for="">Mật khẩu</label>
+          <label for="" id="Password">Mật khẩu</label>
         </div>
 
         <div class="form_group">
-          <input type="Password" name="Password" required />
-          <label for="">Nhập lại mật khẩu</label>
+          <input type="rePassword" name="rePassword" required />
+          <label for="" id="rePassword">Nhập lại mật khẩu</label>
         </div>
 
-        <button class="btn-login">Đăng ký</button>
+        <button type="submit" class="btn-login">Đăng ký</button>
 
         <p>
           Bạn đã có tài khoảng? <a href="/Dang_nhap/index.html">Đăng nhập</a>
