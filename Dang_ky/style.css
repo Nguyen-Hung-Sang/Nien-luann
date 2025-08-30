@@ -86,3 +86,7 @@ label {
 .btn-login:hover {
   opacity: 0.5;
 }
+p {
+  margin-top: 20px;
+  text-align: center;
+}
