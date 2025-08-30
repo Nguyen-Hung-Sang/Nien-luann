@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- reset font -->
+    <link rel="stylesheet" href="/Assets/Css/reset.css" />
+
+    <!-- Nhúng font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Style -->
+    <link rel="stylesheet" href="./style.css" />
+    <title>Đăng ký</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <form action="">
+        <h3>Đăng ký</h3>
+        <div class="form_group">
+          <input type="text" name="tenDN" required />
+          <label for="">Tên đăng nhập</label>
+        </div>
+        <div class="form_group">
+          <input type="Email" name="Email" required />
+          <label for="">Email</label>
+        </div>
+
+        <div class="form_group">
+          <input type="phone_number" name="phone_number" required />
+          <label for="">Số điện thoại</label>
+        </div>
+
+        <div class="form_group">
+          <input type="Password" name="Password" required />
+          <label for="">Mật khẩu</label>
+        </div>
+
+        <div class="form_group">
+          <input type="Password" name="Password" required />
+          <label for="">Nhập lại mật khẩu</label>
+        </div>
+        <input type="submit" value="Đăng ký" id="btn-login" />
+      </form>
+    </div>
+  </body>
+</html>
