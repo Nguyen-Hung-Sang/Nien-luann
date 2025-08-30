@@ -73,11 +73,16 @@ label {
   color: #ee0000;
 }
 
-input#btn-login {
-  background: #ee0000;
+.btn-login {
+  display: block;
+  min-width: 250px;
+  line-height: 40px;
+  background: rgb(213, 28, 36);
   color: #fff;
-  cursor: pointer;
+  text-align: center;
+  font-weight: 400;
+  border-radius: 10px;
 }
-input#btn-login:hover {
+.btn-login:hover {
   opacity: 0.5;
 }
